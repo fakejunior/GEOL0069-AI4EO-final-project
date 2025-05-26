@@ -40,9 +40,23 @@ These bands were chosen because they are commonly used for vegetation analysis (
 The data was specifically chosen for the following reasons:
 - **Minimal cloud cover**: The selected date (April 29, 2025) exhibited low cloud coverage, which is ideal for accurate classification and detection of land types.
 - **High spatial resolution**: The 10m resolution allows for detailed detection of small water bodies, urban areas, and other land types, making it suitable for land use classification tasks.
+![image](https://github.com/user-attachments/assets/61927fc3-d1ab-4180-b4cb-238dad10f4fd)
 
 The final dataset includes **Sentinel-2A Level 2A data**, providing atmospherically corrected reflectance values, which is essential for accurate analysis in environmental monitoring.
 
 ## Method and Results
 
 This project utilizes high-resolution Sentinel-2 imagery and combines **KMeans clustering** with explainable artificial intelligence (XAI) techniques to classify land types in Southeast London and the English Channel. The use of band stacking and spectral indices (NDVI, NDWI) enhances the separation between different land cover types such as water bodies, urban areas, vegetation, and other surfaces.
+### 1. Clustering Results Visualization
+
+After band stacking and feature extraction, feature standardization is applied. The KMeans algorithm then automatically assigns each pixel to one of four clusters. The results section includes visualizations of the original RGB image, spatial distribution of clusters, and masks of each cluster overlaid on the original image. Pixel count per cluster is also presented in a bar plot, providing a clear overview of the proportion and spatial distribution of each land type in the study area.
+![image](https://github.com/user-attachments/assets/007bc430-451f-42c8-9b55-126e0cf186b6)
+![image](https://github.com/user-attachments/assets/deef2ade-0a57-4d79-aec5-e169baccffa6)
+
+### 2. XAI Analysis
+
+To better interpret the physical meaning of each cluster, XAI techniques are applied to analyze the cluster centers. Radar charts and bar plots are used to show the mean values of each feature (the four bands, NDVI, and NDWI) for every cluster, giving insight into the spectral characteristics of each class. For example, urban and water classes can be clearly distinguished in NDWI and NDVI, with water-related clusters typically showing negative NDWI, while vegetation clusters have much higher NDVI values than others.
+![image](https://github.com/user-attachments/assets/40f9f2cc-d1e5-47f9-9b46-0b816d478ef8)
+![image](https://github.com/user-attachments/assets/6a0cab8b-6af9-4609-9e94-bc64c59d26e6)
+
+This explainability analysis helps to relate clusters to actual land cover types and offers a quantitative, data-driven reference for future automatic land classification tasks.
