@@ -32,6 +32,8 @@ These bands were chosen because they are commonly used for vegetation analysis (
 - **Spatial Resolution**: 10 meters
 
 ![image](https://github.com/user-attachments/assets/01f9666e-517d-4053-a80e-8c95a92907b5)
+![image](https://github.com/user-attachments/assets/bb52d327-ca33-4bb5-a3f0-5e1a60efacef)
+
 
 ### Data Selection Criteria
 
@@ -40,3 +42,7 @@ The data was specifically chosen for the following reasons:
 - **High spatial resolution**: The 10m resolution allows for detailed detection of small water bodies, urban areas, and other land types, making it suitable for land use classification tasks.
 
 The final dataset includes **Sentinel-2A Level 2A data**, providing atmospherically corrected reflectance values, which is essential for accurate analysis in environmental monitoring.
+
+## Method and Results
+
+This project utilizes high-resolution Sentinel-2 imagery and combines **KMeans clustering** with explainable artificial intelligence (XAI) techniques to classify land types in Southeast London and the English Channel. The use of band stacking and spectral indices (NDVI, NDWI) enhances the separation between different land cover types such as water bodies, urban areas, vegetation, and other surfaces.
