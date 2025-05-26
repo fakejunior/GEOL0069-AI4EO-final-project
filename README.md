@@ -47,6 +47,8 @@ The final dataset includes **Sentinel-2A Level 2A data**, providing atmospherica
 ## Method and Results
 
 This project utilizes high-resolution Sentinel-2 imagery and combines **KMeans clustering** with explainable artificial intelligence (XAI) techniques to classify land types in Southeast London and the English Channel. The use of band stacking and spectral indices (NDVI, NDWI) enhances the separation between different land cover types such as water bodies, urban areas, vegetation, and other surfaces.
+![1748261007910](https://github.com/user-attachments/assets/d56fe60f-63c5-454e-8bfc-3c7fbb436faa)
+
 ### 1. Clustering Results Visualization
 
 After band stacking and feature extraction, feature standardization is applied. The KMeans algorithm then automatically assigns each pixel to one of four clusters. The results section includes visualizations of the original RGB image, spatial distribution of clusters, and masks of each cluster overlaid on the original image. Pixel count per cluster is also presented in a bar plot, providing a clear overview of the proportion and spatial distribution of each land type in the study area.
