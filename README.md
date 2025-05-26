@@ -60,3 +60,14 @@ To better interpret the physical meaning of each cluster, XAI techniques are app
 ![image](https://github.com/user-attachments/assets/6a0cab8b-6af9-4609-9e94-bc64c59d26e6)
 
 This explainability analysis helps to relate clusters to actual land cover types and offers a quantitative, data-driven reference for future automatic land classification tasks.
+
+## Getting Started
+
+This project was created using **Google Colab**, a cloud-based platform for modifying and sharing code. To get this project up and running, follow these steps:
+
+1. Download the **ML Detection of Land Types.ipynb** file from this repository to get started.
+2. Download the required datasets. See below for how to acquire the datasets.
+3. Modify the file paths in the Colab notebook to match the location where the dataset is saved.
+4. If using the same datasets as the original notebook, no other changes are necessary.
+5. If using a different dataset, modify the filenames where they are used in the notebook. Simply copy the corresponding filename from your dataset and replace the one in the notebook.
+6. Run the cells in the notebook sequentially. Further instructions can be found within the notebook.
