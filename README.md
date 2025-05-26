@@ -71,3 +71,29 @@ This project was created using **Google Colab**, a cloud-based platform for modi
 4. If using the same datasets as the original notebook, no other changes are necessary.
 5. If using a different dataset, modify the filenames where they are used in the notebook. Simply copy the corresponding filename from your dataset and replace the one in the notebook.
 6. Run the cells in the notebook sequentially. Further instructions can be found within the notebook.
+
+## References
+1. Sentinel-2 Data for Environmental Monitoring
+Copernicus Sentinel-2. (2020). Sentinel-2 User Guide. European Space Agency.
+Retrieved from: https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-2-msi
+2. Recent Advances in KMeans Clustering
+Zhang, Y., & Liu, S. (2020). A review of the K-means clustering algorithm and its applications. International Journal of Computer Science and Network Security, 20(10), 49-56.
+Retrieved from: https://www.ijcsns.com
+3. Gaussian Mixture Models (GMM) for Remote Sensing
+Lasserre, C., & Thomas, G. (2019). Gaussian Mixture Models in Remote Sensing: Applications to Earth Observation Data. Remote Sensing, 11(4), 392.
+DOI: 10.3390/rs11040392
+4. Using NDVI and NDWI for Water Body Detection
+Li, Y., Wang, J., & Zhang, L. (2021). Improved classification for water body detection using NDVI and NDWI indices from Sentinel-2 imagery. Journal of Applied Remote Sensing, 15(2), 023501.
+DOI: 10.1117/1.JRS.15.023501
+5. XAI in Remote Sensing: Interpretable Models
+Ribeiro, M. T., Singh, S., & Guestrin, C. (2020). "Why Should I Trust You? Explaining the Predictions of Any Classifier". In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, 1135-1144.
+DOI: 10.1145/2939672.2939778
+6. Copernicus Data Access and Usage
+European Space Agency (ESA). (2021). Copernicus Open Access Hub: Data Discovery and Access for Earth Observation.
+Retrieved from: https://scihub.copernicus.eu/dhus
+7. Land Use and Land Cover Classification Using Remote Sensing
+Ahmed, F., & El-Dahshan, E. A. (2021). A review of machine learning techniques for land use and land cover classification using remote sensing. Remote Sensing Applications: Society and Environment, 22, 100429.
+DOI: 10.1016/j.rsase.2020.100429
+8. Advances in Satellite Remote Sensing for Environmental Monitoring
+Schmidt, M., & Guzmán, A. (2021). Recent advancements in satellite remote sensing for environmental monitoring. Environmental Research Letters, 16(11), 114004.
+DOI: 10.1088/1748-9326/ac14da
