@@ -73,7 +73,7 @@ This project was created using **Google Colab**, a cloud-based platform for modi
 4. If using the same datasets as the original notebook, no other changes are necessary.
 5. If using a different dataset, modify the filenames where they are used in the notebook. Simply copy the corresponding filename from your dataset and replace the one in the notebook.
 6. Run the cells in the notebook sequentially. Further instructions can be found within the notebook.
-
+[![Check out my YouTube video](https://img.youtube.com/vi/ytd1h5Hr31Q/0.jpg)](https://www.youtube.com/watch?v=ytd1h5Hr31Q)
 ## References
 1. Sentinel-2 Data for Environmental Monitoring
 Copernicus Sentinel-2. (2020). Sentinel-2 User Guide. European Space Agency.
